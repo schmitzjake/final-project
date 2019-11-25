@@ -1,0 +1,76 @@
+h1 {
+  Font-Family: 'PT Sans', Sans-Serif;
+  color: #00538C;
+}
+
+h4 {
+  Font-Family: 'PT Sans', Sans-Serif;
+  color: #00538C;
+  padding-top: 10px;
+}
+
+p {
+  Font-Family: 'Playfair Display', Serif;
+}
+
+.navbar {
+  background-color: #B8C4CA;
+}
+
+
+footer {
+  background-color: #B8C4CA;
+}
+
+.image-ht {
+  height: 45vw;
+  width: auto;
+}
+
+a:link {
+  text-decoration: none;
+  color: #00538C;
+  font-weight: bolder;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #00538C;
+  font-weight: bolder;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #00538C;
+  font-weight: bolder;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #00538C;
+  font-weight: bolder;
+}
+
+hr {
+  background-color: #00538C;
+}
+
+.java-p {
+  Font-Family: 'Playfair Display', Serif;
+}
+
+.java-h3 {
+  Font-Family: 'PT Sans', Sans-Serif;
+  color: #00538C;
+}
+
+#map {
+  height: 500px;
+  width: auto;
+  margin: auto;
+      }
+
+.footer-p {
+  padding: 0;
+  margin: 0;
+}
