@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   Font-Family: 'PT Sans', Sans-Serif;
   color: #00538C;
@@ -11,6 +15,13 @@ h4 {
 
 p {
   Font-Family: 'Playfair Display', Serif;
+}
+
+u {
+  text-decoration: underline;
+  text-decoration-color: #00538C;
+  font-weight: bold;
+  color: #00538C;
 }
 
 .navbar {
@@ -64,6 +75,16 @@ hr {
   color: #00538C;
 }
 
+.java-h32 {
+  Font-Family: 'PT Sans', Sans-Serif;
+  color: #00538C;
+  padding-top: 20px;
+}
+
+.java-row {
+  padding-bottom: 10px;
+}
+
 #map {
   height: 500px;
   width: auto;
@@ -73,4 +94,10 @@ hr {
 .footer-p {
   padding: 0;
   margin: 0;
+}
+
+.prof-pic {
+  border-radius: 50%;
+  width: 75px;
+  height: auto;
 }
