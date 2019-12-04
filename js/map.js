@@ -1,4 +1,15 @@
 
+function addPolylineToMap(map) {
+  var lineString = new H.geo.LineString();
+
+  lineString.pushPoint({lat:32.7767, lng:-96.7970});
+  lineString.pushPoint({lat:40.4168, lng: 3.7038});
+  lineString.pushPoint({lat:46.0569, lng: 14.5058});
+
+  map.addObject(new H.map.Polyline(
+    lineString, { style: { lineWidth: 4 }}
+  ));
+}
 
 /**
  * Adds markers to the map
@@ -49,3 +60,5 @@ var ui = H.ui.UI.createDefault(map, defaultLayers);
 window.onload = function () {
   addMarkersToMap(map);
 }
+
+addPolylineToMap(map);
